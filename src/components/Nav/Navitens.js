@@ -1,0 +1,1 @@
+export const NavItens = ['Home', 'Sobre','Categorias','Contato'];
