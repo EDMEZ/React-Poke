@@ -1,8 +1,9 @@
-import './Main.scss'
+import './Main.scss';
+import { PokeList } from '../PokeList'
 export function Main(){
     return(
         <main className="Main">
-            Main
+           <PokeList />
         </main>
     )
 }
