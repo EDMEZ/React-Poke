@@ -1,5 +1,14 @@
-export function PokeList(){
+import { Link } from "react-router-dom"
+export function PokeList({pokemons = []}){
     return (
-        ['Pikachu',' Squirtle'].map((Pokemon) => <span>{Pokemon}</span>)
+        <ul>
+            {pokemons.map((pokemons, index) => 
+                <li key={index}>
+                    <Link to={`/Pokemons/${pokemons}`}>
+                        {pokemons  }
+                    </Link>
+                </li>
+            )}
+        </ul>       
     )
 }

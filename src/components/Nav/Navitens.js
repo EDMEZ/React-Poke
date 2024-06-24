@@ -1,1 +1,1 @@
-export const NavItens = ['Home', 'Sobre','Categorias','Contato'];
+export const NavItens = ['Home', ' Sobre',' Categorias',' Contato'];
