@@ -1,7 +1,24 @@
-.Nav{
-    background-color: burlywood;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-}
+    .Nav{
+        background-color: black;
+        color:  white;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        width: 100%;
+        .Container{
+            margin: auto;
+            width: 1200px;
+        }
+        li{
+            display: grid;
+            padding-left: 20px;    
+        }
+        li:first-child{
+            padding: 0;
+        }
+    }

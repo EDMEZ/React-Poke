@@ -28,6 +28,9 @@ function App() {
           </main>
 
           <Aside>
+            <Routes>
+              <Route path='/' element={<Pokemons />}/>
+            </Routes>
           </Aside>
         </div>
 
