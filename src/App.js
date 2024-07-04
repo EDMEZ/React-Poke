@@ -10,6 +10,7 @@ import { Nav } from './components/Nav';
 import { Home } from './Pages/Home';
 
 import { Pokemons } from './Pages/Pokemons';
+import { Button } from '@mui/material';
 
 function App() {
   return (

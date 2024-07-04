@@ -1,14 +1,19 @@
+import { Button } from "@mui/material"
 import { Link } from "react-router-dom"
 export function PokeList({pokemons = []}){
     return (
-        <ul>
+       <> 
+       <ul>
             {pokemons.map((pokemons, index) => 
                 <li key={index}>
                     <Link to={`/Pokemons/${pokemons}`}>
-                        {pokemons  }
+                        {pokemons} 
                     </Link>
                 </li>
+                
             )}
-        </ul>       
+        </ul>
+        <Button variant="contained">Adicionar</Button>    
+        </>   
     )
 }
